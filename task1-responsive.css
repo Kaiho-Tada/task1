@@ -1,0 +1,49 @@
+@media(max-width: 1080px){
+    .menu-icon {
+        display: block;
+    }
+    .header-list li {
+        display: none;
+    }
+    .video {
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+        padding-bottom: 10px;
+    }
+    .message-txt-contents {
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+        padding-bottom: 60px;
+    }
+    .message-heading {
+        margin-top: 0px;
+    }
+    body{
+    position: relative;
+    }
+}   
+@media(max-width: 770px){
+    .position-middle {
+        position: relative;
+        left: 0;
+    }
+    .top-wrapper{
+        margin: 0 auto;
+        padding-top: 150px;
+    }
+    .top-btn-left {
+        display: block;
+    }
+    .top-btn-right {
+        display: none;
+    }
+    .top-wrapper {
+        background-image: url("https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero-sp.jpg.webp");
+        background-size: cover;
+    }
+    header {
+        background-color: #FFF;
+    }
+}

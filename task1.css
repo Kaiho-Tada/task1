@@ -1,0 +1,201 @@
+body {
+    width: 100%;
+    font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+}
+.background-image-wrapper {
+    background-image: url("https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero-sp.jpg.webp");
+    background-size: 50% 100%;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 80px;
+}
+header {
+    height: 43px;
+}
+.header-logo {
+    padding: 13px 0 0 26px;
+    float: left;
+}
+.header-image img {
+    width: 190px;
+}
+.menu-icon {
+  display: none;
+  float: right;
+  font-size: 30px;
+  padding: 9px 23px 0px 0px;
+  cursor: pointer;
+}
+.header-list {
+    float: right;
+}
+.header-list ul {
+    display: flex;
+}
+.header-list li {
+    font-size: 13px;
+    padding-right: 20px;
+    list-style: none;
+}
+.header-link {
+    display: inline-block;
+    padding-right: 10px;
+    color: #000;
+    text-decoration: none;
+}
+.header-btn {
+    border-radius: 50px;
+    padding: 9px;
+    display: inline-block;
+    color: #FFF;
+    background-color: #f79214;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 1s;
+}
+.header-btn:hover {
+    opacity: 0.8;
+}
+.header-btn span {
+    display: block;
+    text-align: center;
+}
+.header-up {
+    display: block;
+    text-align: center;
+    font-weight: 700;
+}
+.header-under {
+    font-weight: 700;
+    display: block;
+}
+.top-wrapper {
+    margin-left: 130px;
+    padding-top: 50px;
+    text-align: center;
+}
+.position-middle {
+    position: relative;
+    left: -190px;
+}
+.top-heading {
+    font-size: 40px;
+}
+.top-image {
+    width:100%;
+    padding-bottom: 30px;
+    display: inline-block;
+}
+.top-image-left {
+    margin-right: 8px;
+    padding-bottom: 30px;
+}
+.top-image-center {
+    margin-right: 8px;
+}
+.top-image-right {
+    padding-bottom: 30px;
+}
+.top-btn {
+    transition: all 1s;
+    margin-bottom: 30px;
+    display: inline-block;
+    width: 100%;
+}
+.top-btn:hover {
+    opacity: 0.8;
+}
+.top-btn-left {
+    border-radius: 50px;
+    padding: 19px 36px;
+    color: #FFF;
+    background-color: #f79214;
+    text-align: center;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.top-btn-right {
+    padding: 19px 36px;
+    border: 1px solid #000;
+    border-color: #a2a2a4;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #000;
+}
+.top-txt {
+    padding-top: 33px;
+    font-size: 5px;
+    text-align: left;
+    color: #a2a2a4;
+    display: inline-block;
+    position: relative;
+    left: -90px;
+}
+.message-wrapper {
+    background-color: #F79214;
+}
+.Video-contents {
+    text-align: center;
+    margin: 0 auto;
+}
+.video {
+    display: inline-block;
+    padding: 40px 40px 40px 0px;
+    width: 40%;
+}
+.message-txt-contents {
+    vertical-align: top;
+    margin-top: 26px;
+    width: 40%;
+    display: inline-block;
+    color: #FFF;
+    text-align: left;
+}
+.message-heading {
+    margin-bottom: 0px;
+    font-size: 40px;
+}
+.message-link {
+    color: white;
+}
+* {
+    word-break: break-all;
+    box-sizing: border-box;
+}
+.header-menu-wrapper {
+    position: fixed;
+    top: 49px;
+    left: 0px;
+    z-index: 10;
+    background-color: #000;
+    opacity: 0.8;
+    width: 100%;
+    height: 1430px;
+    text-align: center;
+    display: none;
+}
+.header-menu-list ul {
+    flex-direction: column;
+    padding-top: 43px;
+}
+.header-menu-list li {
+    padding-bottom: 33px;
+}
+.header-menu-list li a {
+    color: #FFF;
+    font-size: 19px;
+}
+.header-icon i {
+    font-size: 40px;
+    padding: 5px 23px 0px 0px;
+    color: #000;
+    float: right;
+    display: none;
+    cursor: pointer;
+}
